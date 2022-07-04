@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>JS Variables</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!--FAVICON ICON-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link href="bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-secondary">
+<header class="navbar1">  
+    <div class="navbar collapse bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-warning">What is <i style="color:yellow">Javascript?</i></h4>
+            <p class="text-white">Let’s see what’s so special about JavaScript, what we can achieve with it, and what other technologies play well with it.</p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <ul class="list-unstyled">
+              <li><a href="intro.html" class="text-warning">Home</a></li>
+              <li><a href="contactus.html" class="text-white">Contact Us</a></li>
+              <li><a href="videos.html" class="text-white">Videos</a></li>
+            </ul>
+            <audio controls autoplay>
+              <source src="Lauv - I Like Me Better.ogg" type="audio/ogg">
+              <source src="Lauv - I Like Me Better.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+          <img src="favicon_io/android-chrome-192x192.png" alt="js" width="30" height="30">
+          <strong>Javascript for Beginners</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+    <div class="main">
+        <main>
+        <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-4">
+            <h3 style="color:yellow"><center>JS Tutorial</center></h3>
+            <ul class="nav nav-pills flex-column">
+                <li class="nav-item">
+                <a class="nav-link" id = "inactive" href="intro.html">JS Introduction</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" id="inactive" href="basics.html">JS Basics</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" id="inactive" href="firststeps.html">JS First Steps</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" id="inactive" href="bldgblocks.html">JS Building Blocks</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" id="active" href="variables.html">JS Variables</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" id="inactive" href="references.html">JS References</a>
+                </li>
+            </ul>
+            <hr class="d-sm-none">
+            </div>
+            <div class="col-sm-8 text-white">
+            <h1 style="color:yellow"><i>Variables</i></h1><br>
+            <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--_pyWGSyD--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/w9u60357jk4ozdho7urq.jpg" class="responsive"><br><br>
+            <p><strong>Variables are named values and can store any type of JavaScript value.</strong></p>
+            <p>Most of the time, a JavaScript application needs to work with information. Here are two examples:</p>
+            <ul>
+            <li>An online shop – the information might include goods being sold and a shopping cart.</li>
+            <li>A chat application – the information might include users, messages, and much more.</li>
+            </ul>
+            <p>Variables are used to store this information.</p>
+            <h3 class="text-warning">How to name variables in Javascript?</h3>
+            <p>Here’s how to declare a variable:</p>
+            <img src="pic/sample9.jpg" class="responsive"><br><br>
+            <p>And here’s what’s happening in the example above:</p>
+            <ul>
+              <li>var is the keyword that tells JavaScript you’re declaring a variable.</li>
+              <li>x is the name of that variable.</li>
+              <li>= is the operator that tells JavaScript a value is coming up next.</li>
+              <li>100 is the value for the variable to store.</li>
+            </ul>
+            <h3 class="text-warning">Using variables</h3>
+            <p>After you declare a variable, you can reference it by name elsewhere in your code.</p>
+            <img src="pic/sample10.jpg" class="responsive"><br><br>
+            <p>You can even use a variable when declaring other variables.</p>
+            <img src="pic/sample11.jpg" class="responsive"><br><br>
+            <h3 class="text-warning">Reassigning variables</h3>
+            <p>You can give an existing variable a new value at any point after it’s declared.</p>
+            <img src="pic/sample12.jpg" class="responsive"><br><br>
+            <h3 class="text-warning">Naming variables</h3>
+            <p>Variable names are pretty flexible as long as you follow a few rules:</p>
+            <ul>
+              <li>Start them with a letter, underscore _, or dollar sign $.</li>
+              <li>After the first letter, you can use numbers, as well as letters, underscores, or dollar signs.</li>
+              <li>Don’t use any of JavaScript’s reserved keywords.</li>
+            </ul>
+            <p>With that in mind, here are valid variable names:</p>
+            <img src="pic/sample13.jpg" class="responsive"><br><br>
+            <p>And here are some invalid variable names — try to spot what’s wrong with each of them:</p>
+            <img src="pic/sample14.jpg" class="responsive"><br><br>
+            <p>Variable names are case-sensitive, so myVar, MyVar, and myvar are all different variables. 
+              But generally, it’s a good practice to avoid naming variables so similarly.</p>
+            </div>
+        </div>
+        </div>
+    </main> 
+    </div>
+
+    <footer class="footer mt-auto text-faded text-center py-2">
+        <div class="container"><p class="m-0 small">Copyright &copy; MINI PROJECT 2022 by codelaguna</p></div>
+    </footer>
+</body>
+    <!-- aos effects -->
+    <script>
+      AOS.init();
+    </script>
+        
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</html>
